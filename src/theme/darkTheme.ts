@@ -1,20 +1,35 @@
 import { createTheme } from "@mui/material/styles";
 
 export const darkTheme = createTheme({
-    palette: {
-        mode: 'dark',
-        background: {
-            default: '#0F172A',
-            paper: '#1E293B'
-        },
-        primary: {
-            main: '#8B7CF8'
-        },
-        secondary: {
-            main: '#FF7675'
-        }
+  palette: {
+    mode: "dark",
+
+    background: {
+      default: "#121212",      // calm neutral dark
+      paper: "#1C1C1C"
     },
-    typography: {
-        fontFamily: `'Inter', sans-serif`,
+
+    primary: {
+      main: "#4C7CA8"          // muted blue adapted for dark
+    },
+
+    text: {
+      primary: "#E6E6E6",
+      secondary: "#A8A8A8"
+    },
+
+    divider: "#2A2A2A"
+  },
+
+  typography: {
+    fontFamily: "Roboto, sans-serif",
+    button: {
+      textTransform: "none",
+      fontWeight: 500
     }
-})
+  },
+
+  shape: {
+    borderRadius: 12
+  }
+});

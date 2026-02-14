@@ -1,26 +1,40 @@
 import { createTheme } from '@mui/material/styles';
 
 export const lightTheme = createTheme({
-    palette: {
-        mode: 'light',
-        background: {
-            default: '#F8F7F4',
-            paper: '#FFFFFF'
-        },
-        primary: {
-            main: '#6C5CE7'
-        },
-        secondary: {
-            main: '#FF7675'
-        },
-        text: {
-            primary: '#1F1F1F'
-        },
+  palette: {
+    mode: 'light',
+
+    background: {
+      default: '#F7F6F3',   // softer warm white
+      paper: '#FFFFFF'
     },
-    typography: {
-        fontFamily: `'Inter', sans-serif`,
-        h4: {
-            fontWeight: 700
-        }
+
+    primary: {
+      main: '#2F5D8C'  // muted deep blue
+    },
+
+    text: {
+      primary: '#2B2B2B',
+      secondary: '#6B6B6B'
+    },
+
+    divider: '#EAEAEA'
+  },
+
+  typography: {
+    fontFamily: 'Roboto, sans-serif',
+
+    h4: {
+      fontWeight: 500
+    },
+
+    button: {
+      textTransform: 'none',
+      fontWeight: 500
     }
+  },
+
+  shape: {
+    borderRadius: 12
+  }
 });
