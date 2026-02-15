@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { bookReviews } from "../../data/review";
 import ReviewCard from "./ReviewCard";
 
-export default function ReviewCarousel() {
+export default function ReviewList() {
     const [index, setIndex] = useState(0);
     const theme = useTheme();
 

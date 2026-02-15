@@ -110,6 +110,7 @@ export default function BookCard({ book }: Props) {
 
                 <Stack direction="row" spacing={1}>
                     <Button
+                        disabled={true}
                         variant="contained"
                         fullWidth
                         disableElevation
@@ -120,7 +121,7 @@ export default function BookCard({ book }: Props) {
                             py: 1
                         }}
                     >
-                        Buy Now
+                        Shop Now
                     </Button>
                     <Button
                         component={Link}
