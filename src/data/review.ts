@@ -10,50 +10,83 @@ export type Review = {
 export const bookReviews: Review[] = [
     {
         id: 1,
-        userName: "Siddharth M.",
+        userName: "Om Soni.",
         rating: 5,
-        comment: "The quality of the hardcover was exceptional. You can tell these aren't just random picks; they are curated with care.",
+        comment: "Amazing book service provider. Reasonable price. I'm sharing books recommend by owner and it was worth reading. 📚 Follow @_bookbox on Instagram.",
         date: "Feb 10, 2026",
         isVerified: true
     },
     {
         id: 2,
-        userName: "Anjali P.",
-        rating: 4,
-        comment: "Finally found a local curator in Ahmedabad that gets my taste in philosophy. Delivery was faster than expected!",
+        userName: "Krupesh Shukla.",
+        rating: 5,
+        comment: "If you are searching for genuine book seller then this is a right place to checkout. The quality of books is very good and the seller is also very kind. Must visit place.",
         date: "Jan 28, 2026",
         isVerified: true
     },
     {
         id: 3,
-        userName: "Vikram Shah",
+        userName: "Pushpendra jha",
         rating: 5,
-        comment: "The unboxing experience was so aesthetic. It's not just a book; it's a whole vibe. Perfect for gifting too!",
+        comment: "Pages are smooth and crisp, making the reading experience clean and enjoyable.",
         date: "Feb 12, 2026",
         isVerified: true
     },
     {
         id: 4,
-        userName: "Priya D.",
+        userName: "Hareshawer Patil",
         rating: 5,
-        comment: "Ordering via WhatsApp was seamless. I asked for a recommendation for a long flight, and their pick was brilliant.",
+        comment: "The owner is genuine book lover so she knows about the books, will suggest books if you are confused about what to get and also the prices are really reasonable low compared to any where else",
         date: "Feb 05, 2026",
         isVerified: true
     },
     {
         id: 5,
-        userName: "Rahul G.",
-        rating: 4,
-        comment: "Great collection of business and finance books that you don't easily find in local stores. Very impressed with the packaging.",
+        userName: "Parth Sharma",
+        rating: 5,
+        comment: "I bought books second time from her and I can definitely tell if I was a good reader, I would be her regular customer..",
         date: "Jan 15, 2026",
         isVerified: true
     },
     {
         id: 6,
-        userName: "Meera Iyer",
+        userName: "Devanshu Prajapati",
         rating: 5,
-        comment: "As a bibliophile, I appreciate the condition these books arrive in. No bent corners or scratches. BookBox really cares.",
+        comment: "There is a great variety of books available here and also the person is very much lovable to me I would surely recommend others to buy atleast 1 book",
         date: "Feb 01, 2026",
         isVerified: true
+    },
+    {
+        id: 7,
+        userName: "Milan Katariya",
+        rating: 5,
+        comment: "Good experience and best rates. Also got free bookmarks.",
+        date: "Jan 01, 2026",
+        isVerified: true
+    },
+    {
+        id: 8,
+        userName: "Harsh Mathur",
+        rating: 5,
+        comment: "Easy and Simple purschase. Very cooperative",
+        date: "Jan 01, 2026",
+        isVerified: true
+    },
+    {
+        id: 9,
+        userName: "Vrushty Patel",
+        rating: 5,
+        comment: "Amazing service and amazing books. Price is also reasonable and the service is also very good. I would love to order in future. An amazing place to buy any books.",
+        date: "Jan 01, 2023",
+        isVerified: true
+    },
+    {
+        id: 9,
+        userName: "Safal Patel",
+        rating: 5,
+        comment: "Thank you Bookbox for helping me get the book within minimum time, I couldn't find the book and that bookbox made it possible within an hour and not to forget the quality!!. I am really happy and would like to appreciate the service and recommend it to everyone. Thnk u and Keep up!! :)",
+        date: "Jan 01, 2023",
+        isVerified: true
     }
+    
 ];
